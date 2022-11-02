@@ -10,7 +10,7 @@ const [isOpen,setIsOpen]=useState(false)
         
         img:"https://bit.ly/3wD6xXv",
         title:"Rio",
-        rating:4,
+        rating:3,
         trailer:"https://www.youtube.com/embed/mwbYoGxEe9g",
     },
     {
