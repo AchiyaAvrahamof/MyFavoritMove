@@ -1,7 +1,6 @@
 import "../mymovie/pages/rating.css"
 import { useState } from "react";
 import {Rating} from '@mui/material'
-import { Icon } from '@mui/material';
 
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 const MainPage = (props)=>{
@@ -24,7 +23,7 @@ const MainPage = (props)=>{
         <div className="movieContiner" >
             
             <div className="movieSection">
-            <img src={props.img} className="movieimg" onClick={()=> setIsOpen(!isOpen)}></img>
+            <img alt="movie img" src={props.img} className="movieimg" onClick={()=> setIsOpen(!isOpen)}></img>
             </div>
             <div className="movieSection nameMovie">
             <h4 >{props.title}</h4>

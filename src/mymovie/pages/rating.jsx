@@ -1,4 +1,4 @@
-import { Children, useState } from "react";
+import { useState } from "react";
 import MainPage from "../../components/MainPage";
 import "./rating.css"
 import { Button, TextField } from '@mui/material'
